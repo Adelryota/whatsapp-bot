@@ -93,9 +93,9 @@ Asena.addCommand(
     }
 );
 
-// Add the .kiss command
+// Add the .kissgif command
 Asena.addCommand(
-    { pattern: "kiss", fromMe: true, desc: "Send an anime kiss GIF" },
+    { pattern: "kissgif", fromMe: true, desc: "Send an anime kiss GIF" },
     async (message, match) => {
         const mentionedUser = message.mentioned[0]; // Get the first mentioned user
         if (mentionedUser) {
